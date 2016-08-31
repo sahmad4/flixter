@@ -21,6 +21,10 @@ gem 'sass-rails'
 gem 'devise', '>= 3.2.4'
 gem 'simple_form'
 gem 'carrierwave'
+gem "figaro"
+gem "fog"
+gem 'mini_magick', '~> 4.3.1'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
