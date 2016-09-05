@@ -26,6 +26,7 @@ gem "fog"
 gem 'mini_magick', '~> 4.3.1'
 gem 'stripe'
 gem 'ranked-model'
+gem 'jquery-ui-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
