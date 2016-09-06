@@ -3,6 +3,8 @@ Flixter::Application.routes.draw do
   resource :dashboard, only: [:show]
 
   root 'static_pages#index'
+  get 'privacy', to: 'static_pages#privacy'
+
   resources :courses, only: [:index, :show] do
     resources :enrollments, only: :create
   end
@@ -15,7 +17,7 @@ Flixter::Application.routes.draw do
     resources :courses, only: [:new, :create, :show] do
       resources :sections, only: [:new, :create]
     end
-    resources :sections, only: [:create]
+    resources :sections, only: [:update]
   end
 end
   # The priority is based upon order of creation: first created -> highest priority.
