@@ -59,12 +59,19 @@
 <br class="clr" />
 
 <div id="footer">
-  <div class="container">
-    Instructor Portal
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
-  </div>
-</div>
+
+  <div id="footer--wrapper">
+
+    <div class="footer--card">
+    </div>
+
+    <div class="footer--card container">
+      <b class="footer--title">Teachers</b>
+        <br />
+      <%= link_to 'Teach a course', new_instructor_course_path %>
+        <br />
+      <%= link_to 'View dashboard', dashboard_path %>
+    </div>   
 
 </body>
 </html>
